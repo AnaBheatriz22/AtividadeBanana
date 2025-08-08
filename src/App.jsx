@@ -1,31 +1,41 @@
 import './App.css'
 import HelloWorld from '../components/HelloWorld'
+import Morango from '../components/morango'
+import Frase from '../components/Frase'
+import Seu from '../components/Seu'
+import Pai from '../components/Pai'
+import Filho from '../components/Filho'
 
 function App() {
 
- const nome ="Bia"
+ const nome ="ana"
 
- const newNome = nome.toUpperCase() 
+ const newFrase = nome.toUpperCase() 
 
- const url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUzCLUKs4-08o-Px-7scxmL99O6BTFMzlg1w&s'
+ const url= "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbanana-kong.br.uptodown.com%2Fandroid&psig=AOvVaw0HD46KLUhvs_WJKAZsGeq6&ust=1754700308532000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOCs6pX--Y4DFQAAAAAdAAAAABAE"
 
- function Soma(a, b){
-
-  return a + b
-
-
- }
+const url=""
 
   return(
     <div className='App'>
-      <HelloWorld/>
-      <h1>Olá pessoas</h1>
-      <p>Me chame de {newNome}.</p>
-      <p>Soma: {Soma(17,1)}</p>
-      <img src={url} alt='Alquimia das almas'></img>
+          <HelloWorld/>
+          <Morango/>
+            <img src={url} alt='Morango'/>
+              <Frase/>
+                  <img src=''></img>
+                <Frase/>
+                <Seu/>
+
+                <Seu/>
+              <Pai/>
+
+            <Pai/>
+            <Filho/>
+
+          <Filho/>
+          <p>Me chame de {newFrase}.</p>
     </div>
   )
-
 }
 
 export default App

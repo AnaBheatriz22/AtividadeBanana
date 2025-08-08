@@ -1,8 +1,11 @@
+import Morango from "./morango";
 function Frase(){
 
         return(
             <div>
-                <h1>Meu segundo componente</h1>       
+                <Morango/>
+                <h1>Banana Filho!</h1>
+                <Morango/>       
             </div>
         )
 }

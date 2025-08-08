@@ -1,10 +1,15 @@
 import Frase from './Frase'
+import Morango from './morango'
+import Pai from './Pai'
+import Seu from './Seu'
+import Filho from './Filho'
 function HelloWorld (){
 
     return(
         <div>
-            <p> Meu primeiro componente!</p>
-            </Frase>
+            <Frase/>
+            <p> Coisas Bananas!</p>
+            <Frase/>
         </div>
     )
 }
