@@ -8,7 +8,7 @@ function HelloWorld (){
     return(
         <div>
             <Frase/>
-            <p> Coisas Bananas!</p>
+            <p> Coisas Banananais!</p>
             <Frase/>
         </div>
     )

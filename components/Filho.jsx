@@ -5,7 +5,7 @@ function Filho(){
     return(
         <div>
             <Pai/>
-            <h1>Banana Filho!</h1>     
+            <h1>Joao Banana!</h1>     
             <Pai/>  
         </div>
     )
