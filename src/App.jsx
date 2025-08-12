@@ -24,8 +24,8 @@ function App() {
                              alt='ImgBananaFilho'></img>
                       <Frase/>
                        <Seu/>
-                            <img src='https://www.meiahora.com.br/_midias/jpg/2020/03/18/4-16276014.jpg'
-                            alt='ImgBananinha'
+                            <img src='https://media.istockphoto.com/id/138001792/pt/foto/platanos-maduros.jpg?s=612x612&w=0&k=20&c=x_Ke3wfw7N_PWPYBUd0mXZDZwTHCu8Pfq8k-Y23CUSU='
+                            alt='ImgBananaFrita'
                             ></img>
                        <Seu/>
                  <Pai/>
